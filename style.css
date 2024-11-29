@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_bar{
+    width: 100%;
+    height: 50px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 10%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    color: #ffffff;
+}
+.links{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+ul{
+    color: #ffffff;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    width: 10%;
+    height: 40px;
+    
+    display: none;
+}
+.text{
+    color: #ffffff;
+    font-weight: 600;
+  width: 80%;
+  height: 300px;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.text h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+form{
+    width: 50%;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+    border-radius: 10px;
+}
+form input{
+    width: 70%;
+    height: 40px;
+    /* border-radius: 10px; */
+    padding-left: 10px;
+    border: none;
+    font-size: 20px;
+   
+
+}
+form select{
+   width: 30%;
+   height: 40px;
+   /* border-radius: 10px; */
+   border: none;
+   font-size: 20px;
+   color: #634848;
+}
+input:focus{
+    outline: none;
+}
+.container1{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 80%;
+    height: 40vh;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.cart{
+    width: 30%;
+    height: 280px;
+    /* background-color: cornflowerblue; */
+    padding: 10px;
+    
+}
+.cart img{
+    width: 100%;
+    height: 70%;
+}
+.cart_text{
+    width: 80%;
+    height: 100x;
+    /* background-color: aqua; */
+    padding-left: 20px;
+    color: #634848;
+}
+
+@media (max-width:480px) {
+    .main_container{
+        width: 100%;
+        height: 100vh;
+
+    }
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .nav_bar{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo{
+        width: 30%;
+        height: 50px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .links{
+        display: none;
+    }
+    .menu{
+        color: #ffffff;
+        width: 20%;
+        height: 50px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .text{
+        width: 100%;
+        height: 300px;
+        /* background-color: aqua; */
+    }
+    .text h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .text h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    form{
+      width: 100%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      /* background-color: red; */
+      justify-content: space-around;
+    }
+    form input{
+        width: 90%;
+        border-radius: 10px;
+    }
+    form select{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .container1{
+        width: 100%;
+        height: 50vh;
+        /* background-color: #634848; */
+    }
+    .box{
+        width: 80%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cart{
+        width: 60%;
+        height: auto;
+    }
+}
+@media (max-width:780px) {
+    .main_container{
+        width: 100%;
+        height: 100vh;
+
+    }
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .nav_bar{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo{
+        width: 30%;
+        height: 50px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .links{
+        display: none;
+    }
+    .menu{
+        color: #ffffff;
+        width: 20%;
+        height: 50px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .text{
+        width: 100%;
+        height: 300px;
+        /* background-color: aqua; */
+    }
+    .text h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .text h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    form{
+      width: 100%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      background-color: transparent;
+      justify-content: space-around;
+    }
+    form input{
+        width: 90%;
+        border-radius: 10px;
+    }
+    form select{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .container1{
+        width: 100%;
+        height: 50vh;
+        /* background-color: #634848; */
+    }
+    .box{
+        width: 80%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cart{
+        width: 100%;
+        height: auto;
+    }
+}
